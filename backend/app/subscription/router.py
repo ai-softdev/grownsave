@@ -11,6 +11,7 @@ from app.payment.models import Order
 from app.payment.schemas import PaymentData
 from app.request import request
 from app.subscription.models import Plan
+from app.subscription.schemas import SPlan
 from app.subscription.tools import has_subscription
 from app.users.dependencies import get_current_user
 from app.users.models import User
@@ -53,6 +54,6 @@ async def implement_creating_subscription(data: PaymentData, user: User = Depend
 
 
 @router.get('/plans')
-async def get_plans() -> List[]
+async def get_plans() -> List[SPlan]:
     plans = await Plan.get_all()
     return plans
