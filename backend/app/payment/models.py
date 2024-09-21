@@ -14,4 +14,4 @@ class Order(Base):
     plan_id = Column(ForeignKey("plans.id"), nullable=True)
     user_id = Column(ForeignKey("users.id"), nullable=True)
     plan = relationship("Plan")
-    user = relationship("User", back_populates='purchases')
+    # user = relationship("User", back_populates='purchases')
