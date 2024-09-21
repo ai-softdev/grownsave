@@ -22,7 +22,7 @@ async def get_country_list(query: str = '', lang: str = 'en', page: int = 1, lim
 
 @router.get('/country/{country_id}')
 async def get_country_detail(country_id: int) -> SCountry:
-    country = await Country.find_one_or_fail(filter=Country.id == id, includes=['regions'])
+    country = await Country.find_one_or_fail(filter=Country.id == country_id, includes=['regions'])
     return country
 
 
