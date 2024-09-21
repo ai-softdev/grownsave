@@ -16,8 +16,9 @@ class Plan(Base):
 
 
 class Purchase(Base):
-    plan_id = Column(ForeignKey('plans.id'), nullable=True)
-    user_id = Column(ForeignKey('users.id'), nullable=True)
-    order_id = Column(ForeignKey('orders.id'), nullable=False)
+    plan_id = Column(ForeignKey("plans.id"), nullable=True)
+    user_id = Column(ForeignKey("users.id"), nullable=True)
+    order_id = Column(ForeignKey("orders.id"), nullable=False)
     order = relationship("Order", back_populates='purchase')
-
+    plan = relationship("Plan")
+    user = relationship("User", back_populates='purchases')

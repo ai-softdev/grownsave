@@ -1,4 +1,4 @@
-from app.subscribe.models import Plan
+from app.subscription.models import Plan
 
 
 class Seeder:

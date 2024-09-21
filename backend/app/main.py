@@ -26,7 +26,7 @@ app.add_middleware(
 
 from app.general.router import router as router_general
 app.include_router(router_general)
-from app.subscribe.router import router as router_subscribe
+from app.subscription.router import router as router_subscribe
 app.include_router(router_subscribe)
 from app.payment.router import router as router_payment
 app.include_router(router_payment)

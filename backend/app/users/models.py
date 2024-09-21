@@ -24,6 +24,6 @@ class User(Base):
     role = relationship("Role", back_populates="users")
     created_at = Column(DateTime, default=func.now())
     phone = Column(String, nullable=True)
-
+    purchases = relationship("Purchase", back_populates='user')
     def __str__(self):
         return f"{self.email}"
