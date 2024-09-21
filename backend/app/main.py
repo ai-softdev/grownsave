@@ -24,3 +24,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from app.general.router import router as router_general
+app.include_router(router_general)
