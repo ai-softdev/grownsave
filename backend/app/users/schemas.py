@@ -25,7 +25,6 @@ class SCurrentUser(BaseModel):
     name: Optional[str]
     patronymic: Optional[str]
     created_at: datetime.datetime
-    is_active: bool
     role: SRole
 
     class Config:

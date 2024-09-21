@@ -1,7 +1,9 @@
+import datetime
 import os
 import asyncio
 import importlib.util
 
+from app.area.models import AreaSeason
 from app.users.models import User
 
 
@@ -13,6 +15,9 @@ async def load_and_run_seeder_async(module_path):
 
 
 async def main():
+    await AreaSeason.delete(
+        filter=AreaSeason.start_date == datetime.date(2024, 5, 21),
+    )
     tasks = []
     for root, dirs, files in os.walk('.'):
         if 'seed.py' in files:

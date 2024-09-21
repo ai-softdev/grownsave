@@ -44,12 +44,9 @@ async def implement_creating_subscription(data: PaymentData, user: User = Depend
     order = await Order.create(transaction_id=transaction_id, amount=plan.price, plan_id=plan.id, user_id=user.id)
 
     '''
-    await Order.create(transaction_id=str(uuid.uuid4()), amount=plan.price, plan_id=plan.id, user_id=user.id)
+    transaction_id = str(uuid.uuid4())
+    await Order.create(transaction_id=transaction_id, amount=plan.price, plan_id=plan.id, user_id=user.id)
     return {
-        'message': 'Order is created. Waiting to purchase'
+        'message': 'Order is created. Waiting to purchase',
+        "transaction_id": transaction_id
     }
-
-
-
-
-

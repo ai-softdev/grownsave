@@ -20,7 +20,7 @@ class SCountry(BaseModel):
 
 class SStats(BaseModel):
     info: dict
-    date: datetime.date
+    date: datetime.datetime
 
 
 class SCountryList(SBaseListResponse):
