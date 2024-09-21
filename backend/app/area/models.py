@@ -38,10 +38,10 @@ class SoilIndicatorStats(Base):
     info = Column(JSON, nullable=False)
     area_season_id = Column(ForeignKey('areaseasons.id', ondelete='CASCADE'))
     area_season = relationship('AreaSeason', back_populates='soil_indicator_statuses')
+    result = Column(JSON)
 
 
 class SatelliteStats(Base):
-    start_date = Column(Date, nullable=False)
-    end_date = Column(Date, nullable=False)
-    photo = Column(String, nullable=False)
+    date = Column(Date, nullable=False)
     area_season_id = Column(ForeignKey('areaseasons.id'))
+    result = Column(JSON)
