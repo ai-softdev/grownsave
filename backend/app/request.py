@@ -15,15 +15,15 @@ async def make_request(method, url, data=None, headers=None):
                 return await response.json()
 
         elif method == Methods.POST:
-            async with session.post(url, data=data, headers=headers) as response:
+            async with session.post(url, json=data, headers=headers) as response:
                 return await response.json()
 
         elif method == Methods.PATCH:
-            async with session.patch(url, data=data, headers=headers) as response:
+            async with session.patch(url, json=data, headers=headers) as response:
                 return await response.json()
 
         elif method == Methods.PUT:
-            async with session.put(url, data=data, headers=headers) as response:
+            async with session.put(url, json=data, headers=headers) as response:
                 return await response.json()
 
         elif method == Methods.DELETE:

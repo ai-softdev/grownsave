@@ -12,4 +12,4 @@
 # class CurrencyEnum(Enum):
 #     UZS = 'UZS'
 #     USD = 'USD'
-    # RUB = 'RUB'
+#     RUB = 'RUB'

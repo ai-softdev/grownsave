@@ -47,6 +47,10 @@ async def implement_creating_subscription(data: PaymentData, user: User = Depend
     '''
     transaction_id = str(uuid.uuid4())
     await Order.create(transaction_id=transaction_id, amount=plan.price, plan_id=plan.id, user_id=user.id)
+
+    '''
+    For test we return transaction_id to make the order confirmed by using /payment/complete request 
+    '''
     return {
         'message': 'Order is created. Waiting to purchase',
         "transaction_id": transaction_id

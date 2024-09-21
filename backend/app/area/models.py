@@ -1,4 +1,6 @@
-from sqlalchemy import Column, ForeignKey, String, JSON, DateTime, Date, Boolean, select
+from typing import List
+
+from sqlalchemy import Column, ForeignKey, String, JSON, DateTime, Date, Boolean, select, desc
 from sqlalchemy.orm import relationship, contains_eager
 
 from app.database import async_session_maker
@@ -24,6 +26,19 @@ class AreaSeason(Base):
     satellite_stats = relationship('SatelliteStats')
 
 
+    @classmethod
+    async def first(cls, filter, includes: List[str] = None):
+        async with async_session_maker() as session:
+
+            query = select(cls).filter(filter).order_by(cls.area_id, cls.start_date.desc()).limit(1)
+            if includes:
+                for include in includes:
+                    query = query.options(cls.build_joinedload(include))
+
+            result = await session.execute(query)
+            return result.unique().scalars().all()
+
+
 class SoilIndicator(Base):
     created_at = Column(Date)
     area_id = Column(ForeignKey('areas.id', ondelete='cascade'))
@@ -39,6 +54,18 @@ class SoilIndicatorStats(Base):
     area_season_id = Column(ForeignKey('areaseasons.id', ondelete='CASCADE'))
     area_season = relationship('AreaSeason', back_populates='soil_indicator_stats')
     result = Column(JSON)
+
+    @classmethod
+    async def first(cls, filter, includes: List[str] = None):
+        async with async_session_maker() as session:
+
+            query = select(cls).filter(filter).order_by(cls.area_season_id, cls.datetime.desc()).limit(1)
+            if includes:
+                for include in includes:
+                    query = query.options(cls.build_joinedload(include))
+
+            result = await session.execute(query)
+            return result.unique().scalars().all()
 
 
 class SatelliteStats(Base):
