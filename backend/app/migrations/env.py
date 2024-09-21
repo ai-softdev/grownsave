@@ -1,3 +1,5 @@
+from app.payment.models import *
+from app.subscribe.models import *
 from app.general.models import *
 import sys
 from logging.config import fileConfig
