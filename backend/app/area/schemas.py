@@ -38,7 +38,7 @@ class SAreaDetail(SArea):
 
 class SAreaCreate(BaseModel):
     name: str
-    coordinates: list[str]
+    coordinates: List[str]
 
 
 

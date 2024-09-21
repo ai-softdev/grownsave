@@ -1,5 +1,5 @@
 import datetime
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -10,12 +10,12 @@ from app.repository.schemas import SBaseListResponse
 class SRegion(BaseModel):
     id: int
     names: dict
-    code: str
+    code: Optional[str]
 
 
 class SCountry(BaseModel):
     names: SLanguage
-    regions: List[SRegion]
+    regions: Optional[List[SRegion]]
 
 
 class SStats(BaseModel):

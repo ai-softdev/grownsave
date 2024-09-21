@@ -2,6 +2,7 @@ version: '3.8'
 services:
 
   web:
+    container_name: back
     build:
       context: .
       dockerfile: Dockerfile
@@ -12,8 +13,9 @@ services:
     networks:
       - app-network
     ports:
-      - "8001:8001"
+      - "9777:8001"
   db:
+    container_name: db
     image: postgres:12
     env_file:
       - .env

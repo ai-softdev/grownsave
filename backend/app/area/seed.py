@@ -132,7 +132,7 @@ class Seeder:
             status=OrderStatus.completed,
             user_id=user_1.id,
             plan_id=pro_plan.id,
-            datetime=datetime.datetime.now()
+            created_at=datetime.datetime.now()
         )
         area_1 = await Area.first_or_create(
             filter=Area.name == 'test area',

@@ -9,7 +9,7 @@ from app.users.models import User
 
 
 async def has_subscription(user: User, raise_exception=True) -> bool:
-    order = await Order.find_one_or_none(filter=and_(Order.datetime > datetime.now() - timedelta(days=30),
+    order = await Order.find_one_or_none(filter=and_(Order.created_at > datetime.now() - timedelta(days=30),
                                                      Order.status == OrderStatus.completed,
                                                      Order.user_id == user.id))
 

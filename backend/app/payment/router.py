@@ -1,3 +1,5 @@
+from typing import Dict
+
 from fastapi import APIRouter
 
 from app.payment.enums import OrderStatus
@@ -9,7 +11,7 @@ router = APIRouter(prefix="/payment", tags=["Оплата"])
 
 
 @router.post('/complete')
-async def complete_payment(data: PaymentSystemData) -> dict[str, str]:
+async def complete_payment(data: PaymentSystemData) -> Dict[str, str]:
 
     order = await Order.find_one_or_fail(filter=Order.transaction_id == data.transaction_id)
 
