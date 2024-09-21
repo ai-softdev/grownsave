@@ -3,10 +3,13 @@ backend/venv
 backend/app/migrations/versions/*
 !backend/app/migrations/versions/__init__.py
 backend/.idea
+
 backend/*.log
 backend/media/*
 !backend/media/__init__.py
 backend/__pycache__
 
 frontend/node_modules
+frontend/.idea
 
+.idea
