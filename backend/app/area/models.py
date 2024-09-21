@@ -45,3 +45,4 @@ class SatelliteStats(Base):
     date = Column(Date, nullable=False)
     area_season_id = Column(ForeignKey('areaseasons.id'))
     result = Column(JSON)
+    info = Column(JSON)
