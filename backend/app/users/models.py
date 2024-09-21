@@ -5,7 +5,7 @@ from app.repository.base import Base
 from app.database import async_session_maker
 from sqlalchemy import Column, String, DateTime, ForeignKey, select, JSON, func, Boolean, UniqueConstraint, insert
 from sqlalchemy.orm import joinedload, Mapped
-
+from app.area.models import Area
 from sqlalchemy.orm import relationship
 
 

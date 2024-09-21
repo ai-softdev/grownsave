@@ -11,8 +11,10 @@
         "ru": "Ташкентская область",
         "uz": "Toshkent viloyati"
       },
+      "code": "TAS-R",
       "districts": [
         {
+          "district_code": "YAK-D",
           "name": {
             "en": "Yakkasarai district",
             "ru": "Яккасарайский район",
@@ -26,6 +28,7 @@
           ]
         },
         {
+          "district_code": "CHI-D",
           "name": {
             "en": "Chilanzar district",
             "ru": "Чиланзарский район",
@@ -39,6 +42,7 @@
           ]
         },
         {
+          "district_code": "MIR-D",
           "name": {
             "en": "Mirobod district",
             "ru": "Мирабадский район",
@@ -52,6 +56,7 @@
           ]
         },
         {
+          "district_code": "YUN-D",
           "name": {
             "en": "Yunusabad district",
             "ru": "Юнусабадский район",
@@ -65,6 +70,7 @@
           ]
         },
         {
+          "district_code": "SHA-D",
           "name": {
             "en": "Shaykhontohur district",
             "ru": "Шайхонтохурский район",
@@ -78,6 +84,7 @@
           ]
         },
         {
+          "district_code": "SER-D",
           "name": {
             "en": "Sergeli district",
             "ru": "Сергелийский район",
@@ -91,6 +98,7 @@
           ]
         },
         {
+          "district_code": "UCH-D",
           "name": {
             "en": "Uchtepa district",
             "ru": "Учтепинский район",
@@ -104,6 +112,7 @@
           ]
         },
         {
+          "district_code": "OLM-D",
           "name": {
             "en": "Olmazor district",
             "ru": "Алмазарский район",
@@ -117,6 +126,7 @@
           ]
         },
         {
+          "district_code": "BEK-D",
           "name": {
             "en": "Bektemir district",
             "ru": "Бектемирский район",
@@ -130,6 +140,7 @@
           ]
         },
         {
+          "district_code": "MIRZ-D",
           "name": {
             "en": "Mirzo Ulugbek district",
             "ru": "Мирзо-Улугбекский район",
@@ -140,6 +151,244 @@
             "69.28127",
             "41.35822",
             "69.30490"
+          ]
+        },
+        {
+          "district_code": "ZAN-D",
+          "name": {
+            "en": "Zangiota district",
+            "ru": "Зангиатинский район",
+            "uz": "Zangiota tumani"
+          },
+          "coordinates": [
+            "41.23083",
+            "69.15611",
+            "41.25022",
+            "69.18999"
+          ]
+        },
+        {
+          "district_code": "YUK-D",
+          "name": {
+            "en": "Yukorichirchik district",
+            "ru": "Юкоричирчикский район",
+            "uz": "Yuqorichirchiq tumani"
+          },
+          "coordinates": [
+            "41.44690",
+            "69.30851",
+            "41.47213",
+            "69.33641"
+          ]
+        },
+        {
+          "district_code": "QUI-D",
+          "name": {
+            "en": "Quyichirchik district",
+            "ru": "Куйичирчикский район",
+            "uz": "Quyi Chirchiq tumani"
+          },
+          "coordinates": [
+            "41.17493",
+            "69.24435",
+            "41.19756",
+            "69.27261"
+          ]
+        },
+        {
+          "district_code": "PARK-D",
+          "name": {
+            "en": "Parkent district",
+            "ru": "Паркентский район",
+            "uz": "Parkent tumani"
+          },
+          "coordinates": [
+            "41.29643",
+            "69.64056",
+            "41.31974",
+            "69.66829"
+          ]
+        },
+        {
+          "district_code": "BUK-D",
+          "name": {
+            "en": "Buka district",
+            "ru": "Букаский район",
+            "uz": "Bo‘ka tumani"
+          },
+          "coordinates": [
+            "40.92955",
+            "69.21935",
+            "40.95223",
+            "69.24587"
+          ]
+        },
+        {
+          "district_code": "AK-D",
+          "name": {
+            "en": "Akhangaran district",
+            "ru": "Ахангаранский район",
+            "uz": "Ohangaron tumani"
+          },
+          "coordinates": [
+            "40.90623",
+            "69.62455",
+            "40.92846",
+            "69.65432"
+          ]
+        },
+        {
+          "district_code": "PIS-D",
+          "name": {
+            "en": "Piskent district",
+            "ru": "Пскентский район",
+            "uz": "Piskent tumani"
+          },
+          "coordinates": [
+            "40.85312",
+            "69.37312",
+            "40.87734",
+            "69.39941"
+          ]
+        },
+        {
+          "district_code": "CHA-D",
+          "name": {
+            "en": "Chinoz district",
+            "ru": "Чиназский район",
+            "uz": "Chinoz tumani"
+          },
+          "coordinates": [
+            "40.97534",
+            "68.75687",
+            "40.99748",
+            "68.78692"
+          ]
+        },
+        {
+          "district_code": "OHAN-D",
+          "name": {
+            "en": "Ohangaron district",
+            "ru": "Охангаронский район",
+            "uz": "Ohangaron tumani"
+          },
+          "coordinates": [
+            "40.85436",
+            "69.75422",
+            "40.87769",
+            "69.78115"
+          ]
+        },
+        {
+          "district_code": "URTA-D",
+          "name": {
+            "en": "Urtachirchik district",
+            "ru": "Уртачирчикский район",
+            "uz": "O‘rta Chirchiq tumani"
+          },
+          "coordinates": [
+            "41.42123",
+            "69.19635",
+            "41.44356",
+            "69.22598"
+          ]
+        },
+        {
+          "district_code": "BEKA-D",
+          "name": {
+            "en": "Bekabad district",
+            "ru": "Бекабадский район",
+            "uz": "Bekobod tumani"
+          },
+          "coordinates": [
+            "40.21345",
+            "69.25943",
+            "40.23589",
+            "69.28456"
+          ]
+        },
+        {
+          "district_code": "BOS-D",
+          "name": {
+            "en": "Bo'stonliq district",
+            "ru": "Бостанлыкский район",
+            "uz": "Bo'stonliq tumani"
+          },
+          "coordinates": [
+            "41.60334",
+            "69.93712",
+            "41.62545",
+            "69.96487"
+          ]
+        },
+        {
+          "district_code": "BUKA-D",
+          "name": {
+            "en": "Buka district",
+            "ru": "Букаский район",
+            "uz": "Bo‘ka tumani"
+          },
+          "coordinates": [
+            "40.86179",
+            "69.31415",
+            "40.88423",
+            "69.34128"
+          ]
+        },
+        {
+          "district_code": "KYZ-D",
+          "name": {
+            "en": "Kibray district",
+            "ru": "Кибрайский район",
+            "uz": "Kibray tumani"
+          },
+          "coordinates": [
+            "41.36391",
+            "69.39752",
+            "41.38422",
+            "69.42187"
+          ]
+        },
+        {
+          "district_code": "AKK-D",
+          "name": {
+            "en": "Akkungar district",
+            "ru": "Аккунгарский район",
+            "uz": "Akkungar tumani"
+          },
+          "coordinates": [
+            "41.04523",
+            "70.51234",
+            "41.06789",
+            "70.53812"
+          ]
+        },
+        {
+          "district_code": "PIS-D",
+          "name": {
+            "en": "Piskent district",
+            "ru": "Пскентский район",
+            "uz": "Piskent tumani"
+          },
+          "coordinates": [
+            "40.83456",
+            "69.29812",
+            "40.85723",
+            "69.32467"
+          ]
+        },
+        {
+          "district_code": "YAN-D",
+          "name": {
+            "en": "Yangiyul district",
+            "ru": "Янгиюльский район",
+            "uz": "Yangiyo‘l tumani"
+          },
+          "coordinates": [
+            "40.93712",
+            "69.14789",
+            "40.95834",
+            "69.17456"
           ]
         }
       ]

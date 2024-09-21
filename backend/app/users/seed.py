@@ -21,3 +21,10 @@ class Seeder:
                                            role_id=admin_role.id,
                                            email='admin@admin.com',
                                            hashed_password=get_hashed_password("admin@admin.com"))
+        user = await User.first_or_create(filter=User.email == 'oktanc71@yandex.com',
+                                          role_id=user_role.id,
+                                          email='oktanc71@yandex.com',
+                                          name="Asad",
+                                          lastname="Oktamov",
+                                          phone="+998937198242",
+                                          hashed_password=get_hashed_password("oktanc71@yandex.com"))

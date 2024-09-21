@@ -16,11 +16,12 @@ class Region(Base):
     country_id = Column(ForeignKey('countries.id', ondelete='cascade'))
     country = relationship(Country, back_populates='regions')
     districts = relationship("District", back_populates='region')
+    code = Column(String)
 
 
 class District(Base):
     names = Column(JSON)
-    system_name = Column(String)
+    district_code = Column(String)
     region_id = Column(ForeignKey('regions.id', ondelete='cascade'))
     region = relationship(Region, back_populates='districts')
     coordinates = Column(JSON)

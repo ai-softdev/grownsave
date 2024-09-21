@@ -8,10 +8,10 @@ from app.general.models import District, GeneralStats
 
 async def generate_random_data():
     data = []
-    districts = await District.get_all()
+    districts = await District.get_all(filter=District.district_code != None)
     for random_district in districts:
         data.append({
-            "district_id": random_district.id,
+            "district_code": random_district.district_code,
             "stats": [{
                 "info": {
                     "SOIL_TEMPERATURE": {
