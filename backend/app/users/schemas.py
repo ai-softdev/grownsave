@@ -14,21 +14,17 @@ class SPermission(BaseLocale):
     names: SLanguage
 
 
-class SRole(BaseLocale):
+class SRole(BaseModel):
     id: int
-    permissions: List[SPermission]
-
+    system_name: str
 
 class SCurrentUser(BaseModel):
     id: int
     email: str
-    photo: str | None
     lastname: str | None
     name: str | None
     patronymic: str | None
-    last_login: datetime.datetime | None
     created_at: datetime.datetime
-    is_active: bool
     role: SRole
 
     class Config:

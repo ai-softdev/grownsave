@@ -111,7 +111,8 @@ class Seeder:
             amount=25,
             status=OrderStatus.completed,
             user_id=user_1.id,
-            plan_id=pro_plan.id
+            plan_id=pro_plan.id,
+            datetime=datetime.datetime.now()
         )
         area_1 = await Area.first_or_create(
             filter=Area.name == 'test area',
@@ -126,6 +127,7 @@ class Seeder:
             start_date=season_start_1,
             end_date=season_end_1,
             culture_name='corn',
+            area_id=area_1.id
         )
         indicator_1 = await SoilIndicator.first_or_create(
             filter=SoilIndicator.device_id == 'device_1',

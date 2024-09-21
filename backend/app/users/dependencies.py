@@ -36,7 +36,6 @@ async def get_current_user(token: str = Depends(get_token)):
 
     if not user:
         raise UserIsNotPresentException
-    await User.update(model_id=user.id, last_login=datetime.utcnow())
     return user
 
 
