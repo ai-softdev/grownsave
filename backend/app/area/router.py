@@ -2,7 +2,8 @@ from fastapi import APIRouter, Depends
 from sqlalchemy import and_
 
 from app.area.models import Area, AreaSeason
-from app.area.schemas import SAreaList, SAreaDetail, SAreaSeasonDetail, SAreaCreate, SArea
+from app.area.schemas import SAreaList, SAreaDetail, SAreaSeasonDetail, SAreaCreate, SArea, SAreaSeasonCreate, \
+    SAreaSeason, SAreaSeasonCreateResponse
 
 from app.repository.tools import get_list_data
 from app.subscription.tools import has_subscription
@@ -40,8 +41,18 @@ async def create_area(data: SAreaCreate, user: User = Depends(get_current_user))
     return area
 
 
+@router.post('/area_season/create')
+async def create_area_season(data: SAreaSeasonCreate,
+                             user: User = Depends(get_current_user)) -> SAreaSeasonCreateResponse:
 
+    await has_subscription(user)
 
+    await Area.find_one_or_fail(and_(Area.id == data.area_id,
+                                     Area.user_id == user.id))
+
+    area_season = await AreaSeason.create(**data.dict(), includes=['area'])
+
+    return area_season
 @router.get('/area_season/{area_season_id}')
 async def get_area_season(area_season_id: int, user: User = Depends(get_current_user)) -> SAreaSeasonDetail:
     area_season = await AreaSeason.find_one_or_fail(filter=and_(AreaSeason.id == area_season_id,
@@ -49,6 +60,7 @@ async def get_area_season(area_season_id: int, user: User = Depends(get_current_
                                                     includes=['area', 'soil_indicator_stats', 'satellite_stats'])
 
     return area_season
+
 
 
 

@@ -20,6 +20,7 @@ class SSoilIndicator(BaseModel):
     created_at: datetime.date
     working_status: bool
 
+
 class SArea(BaseModel):
     id: int
     name: str
@@ -38,6 +39,7 @@ class SAreaDetail(SArea):
 class SAreaCreate(BaseModel):
     name: str
     coordinates: list[str]
+
 
 
 class SSoilIndicatorStats(BaseModel):
@@ -62,3 +64,12 @@ class SAreaSeasonDetail(BaseModel):
     satellite_stats: List[SSatelliteStats]
 
 
+class SAreaSeasonCreate(BaseModel):
+    culture_name: str
+    area_id: int
+    start_date: datetime.date
+    end_date: datetime.date
+
+
+class SAreaSeasonCreateResponse(SAreaSeason):
+    area: SArea
