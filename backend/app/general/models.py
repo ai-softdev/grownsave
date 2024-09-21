@@ -1,6 +1,7 @@
-from sqlalchemy import Column, JSON, Integer, ForeignKey, String, DateTime, func, Enum
-from sqlalchemy.orm import Mapped, relationship
+from sqlalchemy import Column, JSON, Integer, ForeignKey, String, DateTime, func, Enum, Float, select
+from sqlalchemy.orm import Mapped, relationship, joinedload, contains_eager
 
+from app.database import async_session_maker
 from app.general.enums import StatsTypes
 from app.repository.base import Base
 
@@ -25,10 +26,19 @@ class District(Base):
     coordinates = Column(JSON)
     stats = relationship("GeneralStats", back_populates='district')
 
+    @classmethod
+    async def get_with_stats(cls, filter=None):
+        async with async_session_maker() as session:
+            query = select(cls).join(cls.stats).options(contains_eager(cls.stats))
+            if filter is not None:
+                query = query.filter(filter)
+            result = await session.execute(query)
+            return result.unique().scalars().all()
+
 
 class GeneralStats(Base):
     district_id = Column(ForeignKey('districts.id', ondelete='cascade'))
     district = relationship(District, back_populates='stats')
     info = Column(JSON)
-    date = Column(DateTime, default=func.now())
-    type = Column(Enum(StatsTypes))
+    date = Column(DateTime)
+    result = Column(Float)

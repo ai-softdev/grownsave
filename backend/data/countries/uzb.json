@@ -1,0 +1,2219 @@
+{
+  "names": {
+    "ru": "Узбекистан",
+    "en": "Uzbekistan",
+    "uz": "O`zbekiston"
+  },
+  "regions": [
+    {
+      "names": {
+        "en": "Tashkent region",
+        "ru": "Ташкентская область",
+        "uz": "Toshkent viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Yakkasarai district",
+            "ru": "Яккасарайский район",
+            "uz": "Yakkasaroy tumani"
+          },
+          "coordinates": [
+            "41.25306",
+            "69.21393",
+            "41.31110",
+            "69.27302"
+          ]
+        },
+        {
+          "name": {
+            "en": "Chilanzar district",
+            "ru": "Чиланзарский район",
+            "uz": "Chilonzor tumani"
+          },
+          "coordinates": [
+            "41.28909",
+            "69.20403",
+            "41.31413",
+            "69.22329"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mirobod district",
+            "ru": "Мирабадский район",
+            "uz": "Mirobod tumani"
+          },
+          "coordinates": [
+            "41.28245",
+            "69.26071",
+            "41.30491",
+            "69.27832"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yunusabad district",
+            "ru": "Юнусабадский район",
+            "uz": "Yunusobod tumani"
+          },
+          "coordinates": [
+            "41.35300",
+            "69.24310",
+            "41.37605",
+            "69.26670"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shaykhontohur district",
+            "ru": "Шайхонтохурский район",
+            "uz": "Shayxontohur tumani"
+          },
+          "coordinates": [
+            "41.31400",
+            "69.22422",
+            "41.33410",
+            "69.24860"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sergeli district",
+            "ru": "Сергелийский район",
+            "uz": "Sergeli tumani"
+          },
+          "coordinates": [
+            "41.20531",
+            "69.24501",
+            "41.22832",
+            "69.26471"
+          ]
+        },
+        {
+          "name": {
+            "en": "Uchtepa district",
+            "ru": "Учтепинский район",
+            "uz": "Uchtepa tumani"
+          },
+          "coordinates": [
+            "41.27043",
+            "69.20174",
+            "41.29433",
+            "69.22025"
+          ]
+        },
+        {
+          "name": {
+            "en": "Olmazor district",
+            "ru": "Алмазарский район",
+            "uz": "Olmazor tumani"
+          },
+          "coordinates": [
+            "41.33041",
+            "69.22384",
+            "41.34758",
+            "69.24101"
+          ]
+        },
+        {
+          "name": {
+            "en": "Bektemir district",
+            "ru": "Бектемирский район",
+            "uz": "Bektemir tumani"
+          },
+          "coordinates": [
+            "41.23344",
+            "69.33715",
+            "41.25153",
+            "69.35579"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mirzo Ulugbek district",
+            "ru": "Мирзо-Улугбекский район",
+            "uz": "Mirzo Ulug‘bek tumani"
+          },
+          "coordinates": [
+            "41.34111",
+            "69.28127",
+            "41.35822",
+            "69.30490"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Andijan region",
+        "ru": "Андижанская область",
+        "uz": "Andijon viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Andijan district",
+            "ru": "Андижанский район",
+            "uz": "Andijon tumani"
+          },
+          "coordinates": [
+            "40.76837",
+            "72.35396",
+            "40.78579",
+            "72.38488"
+          ]
+        },
+        {
+          "name": {
+            "en": "Asaka district",
+            "ru": "Асакинский район",
+            "uz": "Asaka tumani"
+          },
+          "coordinates": [
+            "40.64129",
+            "72.23710",
+            "40.67236",
+            "72.27419"
+          ]
+        },
+        {
+          "name": {
+            "en": "Baliqchi district",
+            "ru": "Балыкчинский район",
+            "uz": "Baliqchi tumani"
+          },
+          "coordinates": [
+            "40.73350",
+            "72.02790",
+            "40.75592",
+            "72.05991"
+          ]
+        },
+        {
+          "name": {
+            "en": "Buloqboshi district",
+            "ru": "Булокбошинский район",
+            "uz": "Buloqboshi tumani"
+          },
+          "coordinates": [
+            "40.70347",
+            "72.11054",
+            "40.72630",
+            "72.14108"
+          ]
+        },
+        {
+          "name": {
+            "en": "Jalaquduq district",
+            "ru": "Джалакудукский район",
+            "uz": "Jalaquduq tumani"
+          },
+          "coordinates": [
+            "40.85077",
+            "72.40346",
+            "40.87604",
+            "72.43235"
+          ]
+        },
+        {
+          "name": {
+            "en": "Izboskan district",
+            "ru": "Избосканский район",
+            "uz": "Izboskan tumani"
+          },
+          "coordinates": [
+            "40.90523",
+            "72.23928",
+            "40.92647",
+            "72.27211"
+          ]
+        },
+        {
+          "name": {
+            "en": "Khujaobod district",
+            "ru": "Ходжаабадский район",
+            "uz": "Xo‘jaobod tumani"
+          },
+          "coordinates": [
+            "40.89102",
+            "72.52979",
+            "40.91031",
+            "72.55362"
+          ]
+        },
+        {
+          "name": {
+            "en": "Marhamat district",
+            "ru": "Мархаматский район",
+            "uz": "Marhamat tumani"
+          },
+          "coordinates": [
+            "40.62046",
+            "72.34699",
+            "40.64295",
+            "72.37129"
+          ]
+        },
+        {
+          "name": {
+            "en": "Oltinko'l district",
+            "ru": "Олтинкульский район",
+            "uz": "Oltinko‘l tumani"
+          },
+          "coordinates": [
+            "40.80659",
+            "72.12674",
+            "40.82583",
+            "72.15912"
+          ]
+        },
+        {
+          "name": {
+            "en": "Paxtaobod district",
+            "ru": "Пахтаабадский район",
+            "uz": "Paxtaobod tumani"
+          },
+          "coordinates": [
+            "40.89694",
+            "72.00683",
+            "40.91822",
+            "72.03625"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shahrixon district",
+            "ru": "Шахриханский район",
+            "uz": "Shahrixon tumani"
+          },
+          "coordinates": [
+            "40.66821",
+            "72.45152",
+            "40.69261",
+            "72.47564"
+          ]
+        },
+        {
+          "name": {
+            "en": "Ulug'nor district",
+            "ru": "Улугнорский район",
+            "uz": "Ulug‘nor tumani"
+          },
+          "coordinates": [
+            "40.88257",
+            "72.64398",
+            "40.90824",
+            "72.67118"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Bukhara region",
+        "ru": "Бухарская область",
+        "uz": "Buxoro viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Bukhara district",
+            "ru": "Бухарский район",
+            "uz": "Buxoro tumani"
+          },
+          "coordinates": [
+            "39.76834",
+            "64.41320",
+            "39.77995",
+            "64.42999"
+          ]
+        },
+        {
+          "name": {
+            "en": "Gijduvan district",
+            "ru": "Гиждуванский район",
+            "uz": "G‘ijduvon tumani"
+          },
+          "coordinates": [
+            "40.10065",
+            "64.68638",
+            "40.12355",
+            "64.70581"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kagan district",
+            "ru": "Каганский район",
+            "uz": "Kogon tumani"
+          },
+          "coordinates": [
+            "39.90002",
+            "64.57756",
+            "39.91256",
+            "64.59029"
+          ]
+        },
+        {
+          "name": {
+            "en": "Romitan district",
+            "ru": "Ромитанский район",
+            "uz": "Romitan tumani"
+          },
+          "coordinates": [
+            "40.02014",
+            "64.40155",
+            "40.04099",
+            "64.42919"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shofirkon district",
+            "ru": "Шофирконский район",
+            "uz": "Shofirkon tumani"
+          },
+          "coordinates": [
+            "40.12183",
+            "64.29278",
+            "40.14295",
+            "64.31955"
+          ]
+        },
+        {
+          "name": {
+            "en": "Vobkent district",
+            "ru": "Вобкентский район",
+            "uz": "Vobkent tumani"
+          },
+          "coordinates": [
+            "40.01347",
+            "64.48363",
+            "40.03415",
+            "64.51112"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qorako'l district",
+            "ru": "Каракульский район",
+            "uz": "Qorako‘l tumani"
+          },
+          "coordinates": [
+            "39.50898",
+            "63.83659",
+            "39.52897",
+            "63.85882"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qorovulbozor district",
+            "ru": "Каравулбазарский район",
+            "uz": "Qorovulbozor tumani"
+          },
+          "coordinates": [
+            "39.49252",
+            "64.01938",
+            "39.51346",
+            "64.04593"
+          ]
+        },
+        {
+          "name": {
+            "en": "Olot district",
+            "ru": "Алатский район",
+            "uz": "Olot tumani"
+          },
+          "coordinates": [
+            "39.37385",
+            "63.80017",
+            "39.39383",
+            "63.82379"
+          ]
+        },
+        {
+          "name": {
+            "en": "Peshku district",
+            "ru": "Пешкунский район",
+            "uz": "Peshku tumani"
+          },
+          "coordinates": [
+            "40.05378",
+            "63.91876",
+            "40.07456",
+            "63.94492"
+          ]
+        },
+        {
+          "name": {
+            "en": "Jondor district",
+            "ru": "Жондорский район",
+            "uz": "Jondor tumani"
+          },
+          "coordinates": [
+            "39.84878",
+            "64.24143",
+            "39.86837",
+            "64.27021"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Fergana region",
+        "ru": "Ферганская область",
+        "uz": "Farg‘ona viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Fergana district",
+            "ru": "Ферганский район",
+            "uz": "Farg‘ona tumani"
+          },
+          "coordinates": [
+            "40.38640",
+            "71.78647",
+            "40.40593",
+            "71.80293"
+          ]
+        },
+        {
+          "name": {
+            "en": "Oltiariq district",
+            "ru": "Алтыарыкский район",
+            "uz": "Oltiariq tumani"
+          },
+          "coordinates": [
+            "40.48725",
+            "71.62140",
+            "40.50514",
+            "71.64720"
+          ]
+        },
+        {
+          "name": {
+            "en": "Bag'dod district",
+            "ru": "Багдадский район",
+            "uz": "Bag‘dod tumani"
+          },
+          "coordinates": [
+            "40.54013",
+            "71.72347",
+            "40.56398",
+            "71.74890"
+          ]
+        },
+        {
+          "name": {
+            "en": "Beshariq district",
+            "ru": "Бешарыкский район",
+            "uz": "Beshariq tumani"
+          },
+          "coordinates": [
+            "40.37375",
+            "70.85499",
+            "40.39468",
+            "70.88237"
+          ]
+        },
+        {
+          "name": {
+            "en": "Buvayda district",
+            "ru": "Бувайдинский район",
+            "uz": "Buvayda tumani"
+          },
+          "coordinates": [
+            "40.54823",
+            "71.47060",
+            "40.56912",
+            "71.49714"
+          ]
+        },
+        {
+          "name": {
+            "en": "Dang'ara district",
+            "ru": "Дангаринский район",
+            "uz": "Dang‘ara tumani"
+          },
+          "coordinates": [
+            "40.52416",
+            "71.16290",
+            "40.54603",
+            "71.18944"
+          ]
+        },
+        {
+          "name": {
+            "en": "Furqat district",
+            "ru": "Фуркатский район",
+            "uz": "Furqat tumani"
+          },
+          "coordinates": [
+            "40.61332",
+            "71.01892",
+            "40.63408",
+            "71.04821"
+          ]
+        },
+        {
+          "name": {
+            "en": "Quva district",
+            "ru": "Кувинский район",
+            "uz": "Quva tumani"
+          },
+          "coordinates": [
+            "40.53162",
+            "72.07158",
+            "40.55241",
+            "72.09791"
+          ]
+        },
+        {
+          "name": {
+            "en": "Rishton district",
+            "ru": "Риштанский район",
+            "uz": "Rishton tumani"
+          },
+          "coordinates": [
+            "40.36182",
+            "71.28753",
+            "40.38206",
+            "71.31232"
+          ]
+        },
+        {
+          "name": {
+            "en": "So'x district",
+            "ru": "Сохский район",
+            "uz": "So‘x tumani"
+          },
+          "coordinates": [
+            "39.96932",
+            "71.08474",
+            "39.98790",
+            "71.11015"
+          ]
+        },
+        {
+          "name": {
+            "en": "Toshloq district",
+            "ru": "Ташлакский район",
+            "uz": "Toshloq tumani"
+          },
+          "coordinates": [
+            "40.45971",
+            "71.73832",
+            "40.48119",
+            "71.76057"
+          ]
+        },
+        {
+          "name": {
+            "en": "Uchko'prik district",
+            "ru": "Учкуприкский район",
+            "uz": "Uchko‘prik tumani"
+          },
+          "coordinates": [
+            "40.62714",
+            "71.11687",
+            "40.64627",
+            "71.13814"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yozyovon district",
+            "ru": "Язъяванский район",
+            "uz": "Yozyovon tumani"
+          },
+          "coordinates": [
+            "40.71533",
+            "71.51425",
+            "40.73729",
+            "71.53706"
+          ]
+        },
+        {
+          "name": {
+            "en": "Margilan city",
+            "ru": "город Маргилан",
+            "uz": "Marg‘ilon shahri"
+          },
+          "coordinates": [
+            "40.47220",
+            "71.72457",
+            "40.49178",
+            "71.73999"
+          ]
+        },
+        {
+          "name": {
+            "en": "Quvasoy city",
+            "ru": "город Кувасай",
+            "uz": "Quvasoy shahri"
+          },
+          "coordinates": [
+            "40.29718",
+            "71.86382",
+            "40.31526",
+            "71.88305"
+          ]
+        },
+        {
+          "name": {
+            "en": "Fergana city",
+            "ru": "город Фергана",
+            "uz": "Farg‘ona shahri"
+          },
+          "coordinates": [
+            "40.38640",
+            "71.78647",
+            "40.40593",
+            "71.80293"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Jizzakh region",
+        "ru": "Джизакская область",
+        "uz": "Jizzax viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Arnasoy district",
+            "ru": "Арнасайский район",
+            "uz": "Arnasoy tumani"
+          },
+          "coordinates": [
+            "40.54241",
+            "68.79422",
+            "40.56373",
+            "68.82421"
+          ]
+        },
+        {
+          "name": {
+            "en": "Baxmal district",
+            "ru": "Бахмальский район",
+            "uz": "Baxmal tumani"
+          },
+          "coordinates": [
+            "40.37842",
+            "68.19391",
+            "40.39871",
+            "68.22011"
+          ]
+        },
+        {
+          "name": {
+            "en": "Dustlik district",
+            "ru": "Дустликский район",
+            "uz": "Do‘stlik tumani"
+          },
+          "coordinates": [
+            "40.52612",
+            "68.49731",
+            "40.54720",
+            "68.52793"
+          ]
+        },
+        {
+          "name": {
+            "en": "Forish district",
+            "ru": "Фаришский район",
+            "uz": "Forish tumani"
+          },
+          "coordinates": [
+            "40.49362",
+            "67.96374",
+            "40.51246",
+            "67.99198"
+          ]
+        },
+        {
+          "name": {
+            "en": "Gallaorol district",
+            "ru": "Галляаральский район",
+            "uz": "G‘allaorol tumani"
+          },
+          "coordinates": [
+            "40.04615",
+            "67.79292",
+            "40.06772",
+            "67.81818"
+          ]
+        },
+        {
+          "name": {
+            "en": "Jizzakh district",
+            "ru": "Джизакский район",
+            "uz": "Jizzax tumani"
+          },
+          "coordinates": [
+            "40.11714",
+            "67.84683",
+            "40.13948",
+            "67.87358"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mirzachul district",
+            "ru": "Мирзачульский район",
+            "uz": "Mirzacho‘l tumani"
+          },
+          "coordinates": [
+            "40.38982",
+            "68.69313",
+            "40.41045",
+            "68.72183"
+          ]
+        },
+        {
+          "name": {
+            "en": "Paxtakor district",
+            "ru": "Пахтакорский район",
+            "uz": "Paxtakor tumani"
+          },
+          "coordinates": [
+            "40.31791",
+            "68.28154",
+            "40.33632",
+            "68.30793"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yangiobod district",
+            "ru": "Янгиабадский район",
+            "uz": "Yangiobod tumani"
+          },
+          "coordinates": [
+            "40.40122",
+            "68.61298",
+            "40.42210",
+            "68.64270"
+          ]
+        },
+        {
+          "name": {
+            "en": "Zomin district",
+            "ru": "Зоминский район",
+            "uz": "Zomin tumani"
+          },
+          "coordinates": [
+            "39.97693",
+            "68.42972",
+            "39.99678",
+            "68.45365"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sharof Rashidov district",
+            "ru": "Шароф Рашидовский район",
+            "uz": "Sharof Rashidov tumani"
+          },
+          "coordinates": [
+            "40.10493",
+            "67.89901",
+            "40.12575",
+            "67.92528"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Karakalpakstan Republic",
+        "ru": "Республика Каракалпакстан",
+        "uz": "Qoraqalpog‘iston Respublikasi"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Amudaryo district",
+            "ru": "Амударьинский район",
+            "uz": "Amudaryo tumani"
+          },
+          "coordinates": [
+            "42.47662",
+            "59.57951",
+            "42.49893",
+            "59.61234"
+          ]
+        },
+        {
+          "name": {
+            "en": "Beruniy district",
+            "ru": "Беруниский район",
+            "uz": "Beruniy tumani"
+          },
+          "coordinates": [
+            "42.87845",
+            "59.19138",
+            "42.90014",
+            "59.22315"
+          ]
+        },
+        {
+          "name": {
+            "en": "Chimbay district",
+            "ru": "Чимбайский район",
+            "uz": "Chimboy tumani"
+          },
+          "coordinates": [
+            "43.50791",
+            "58.94378",
+            "43.53082",
+            "58.97501"
+          ]
+        },
+        {
+          "name": {
+            "en": "Ellikqala district",
+            "ru": "Элликкалинский район",
+            "uz": "Ellikqal'a tumani"
+          },
+          "coordinates": [
+            "41.83782",
+            "60.73342",
+            "41.85974",
+            "60.76236"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kegeyli district",
+            "ru": "Кегейлийский район",
+            "uz": "Kegeyli tumani"
+          },
+          "coordinates": [
+            "42.57693",
+            "59.57965",
+            "42.60041",
+            "59.60935"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mo'ynoq district",
+            "ru": "Муйнакский район",
+            "uz": "Mo‘ynoq tumani"
+          },
+          "coordinates": [
+            "43.76458",
+            "59.02924",
+            "43.78615",
+            "59.05873"
+          ]
+        },
+        {
+          "name": {
+            "en": "Nukus district",
+            "ru": "Нукусский район",
+            "uz": "Nukus tumani"
+          },
+          "coordinates": [
+            "42.46727",
+            "59.60728",
+            "42.48995",
+            "59.63746"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qanliko'l district",
+            "ru": "Канлыкульский район",
+            "uz": "Qanliko‘l tumani"
+          },
+          "coordinates": [
+            "43.04193",
+            "58.99762",
+            "43.06519",
+            "59.02949"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qorao'zak district",
+            "ru": "Караузякский район",
+            "uz": "Qorao‘zak tumani"
+          },
+          "coordinates": [
+            "43.26589",
+            "58.96793",
+            "43.28745",
+            "58.99760"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shumanay district",
+            "ru": "Шуманайский район",
+            "uz": "Shumanay tumani"
+          },
+          "coordinates": [
+            "42.81472",
+            "59.04716",
+            "42.83555",
+            "59.07235"
+          ]
+        },
+        {
+          "name": {
+            "en": "Taxtako'pir district",
+            "ru": "Тахтакупырский район",
+            "uz": "Taxtako‘pir tumani"
+          },
+          "coordinates": [
+            "43.53843",
+            "59.68281",
+            "43.56179",
+            "59.70989"
+          ]
+        },
+        {
+          "name": {
+            "en": "To'rtko'l district",
+            "ru": "Турткульский район",
+            "uz": "To‘rtko‘l tumani"
+          },
+          "coordinates": [
+            "42.34398",
+            "59.06627",
+            "42.36523",
+            "59.09212"
+          ]
+        },
+        {
+          "name": {
+            "en": "Xo'jayli district",
+            "ru": "Ходжейлийский район",
+            "uz": "Xo‘jayli tumani"
+          },
+          "coordinates": [
+            "42.41042",
+            "59.45130",
+            "42.43185",
+            "59.47732"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Khorezm region",
+        "ru": "Хорезмская область",
+        "uz": "Xorazm viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Bog'ot district",
+            "ru": "Багатский район",
+            "uz": "Bog‘ot tumani"
+          },
+          "coordinates": [
+            "41.75498",
+            "60.53029",
+            "41.77833",
+            "60.55891"
+          ]
+        },
+        {
+          "name": {
+            "en": "Gurlan district",
+            "ru": "Гурланский район",
+            "uz": "Gurlan tumani"
+          },
+          "coordinates": [
+            "41.84257",
+            "60.40245",
+            "41.86492",
+            "60.43213"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qo'shko'pir district",
+            "ru": "Кошкупырский район",
+            "uz": "Qo‘shko‘pir tumani"
+          },
+          "coordinates": [
+            "41.58756",
+            "60.25003",
+            "41.61089",
+            "60.27681"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shovot district",
+            "ru": "Шаватский район",
+            "uz": "Shovot tumani"
+          },
+          "coordinates": [
+            "41.65648",
+            "60.26239",
+            "41.67871",
+            "60.28983"
+          ]
+        },
+        {
+          "name": {
+            "en": "Urganch district",
+            "ru": "Ургенчский район",
+            "uz": "Urganch tumani"
+          },
+          "coordinates": [
+            "41.55976",
+            "60.61615",
+            "41.57964",
+            "60.64610"
+          ]
+        },
+        {
+          "name": {
+            "en": "Xiva district",
+            "ru": "Хивинский район",
+            "uz": "Xiva tumani"
+          },
+          "coordinates": [
+            "41.37901",
+            "60.35983",
+            "41.40145",
+            "60.38494"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yangibozor district",
+            "ru": "Янгибазарский район",
+            "uz": "Yangibozor tumani"
+          },
+          "coordinates": [
+            "41.75882",
+            "60.02566",
+            "41.78013",
+            "60.05411"
+          ]
+        },
+        {
+          "name": {
+            "en": "Hazorasp district",
+            "ru": "Хазараспский район",
+            "uz": "Hazorasp tumani"
+          },
+          "coordinates": [
+            "41.30978",
+            "61.05512",
+            "41.33156",
+            "61.08373"
+          ]
+        },
+        {
+          "name": {
+            "en": "Xonqa district",
+            "ru": "Ханкинский район",
+            "uz": "Xonqa tumani"
+          },
+          "coordinates": [
+            "41.47516",
+            "60.93364",
+            "41.49583",
+            "60.96085"
+          ]
+        },
+        {
+          "name": {
+            "en": "Tuproqqala district",
+            "ru": "Тупроккалинский район",
+            "uz": "Tuproqqala tumani"
+          },
+          "coordinates": [
+            "41.56984",
+            "60.13673",
+            "41.59063",
+            "60.16724"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Namangan region",
+        "ru": "Наманганская область",
+        "uz": "Namangan viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Chortoq district",
+            "ru": "Чартакский район",
+            "uz": "Chortoq tumani"
+          },
+          "coordinates": [
+            "41.08029",
+            "71.91791",
+            "41.10112",
+            "71.94544"
+          ]
+        },
+        {
+          "name": {
+            "en": "Chust district",
+            "ru": "Чустский район",
+            "uz": "Chust tumani"
+          },
+          "coordinates": [
+            "41.00123",
+            "71.23484",
+            "41.02201",
+            "71.26549"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kosonsoy district",
+            "ru": "Касансайский район",
+            "uz": "Kosonsoy tumani"
+          },
+          "coordinates": [
+            "41.24659",
+            "71.54384",
+            "41.26816",
+            "71.57102"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mingbuloq district",
+            "ru": "Мингбулакский район",
+            "uz": "Mingbuloq tumani"
+          },
+          "coordinates": [
+            "40.83795",
+            "71.62678",
+            "40.85940",
+            "71.65197"
+          ]
+        },
+        {
+          "name": {
+            "en": "Namangan district",
+            "ru": "Наманганский район",
+            "uz": "Namangan tumani"
+          },
+          "coordinates": [
+            "40.99002",
+            "71.67489",
+            "41.01148",
+            "71.70401"
+          ]
+        },
+        {
+          "name": {
+            "en": "Norin district",
+            "ru": "Нарынский район",
+            "uz": "Norin tumani"
+          },
+          "coordinates": [
+            "40.84583",
+            "71.45835",
+            "40.86873",
+            "71.48427"
+          ]
+        },
+        {
+          "name": {
+            "en": "Pop district",
+            "ru": "Папский район",
+            "uz": "Pop tumani"
+          },
+          "coordinates": [
+            "40.87169",
+            "71.09101",
+            "40.89274",
+            "71.12012"
+          ]
+        },
+        {
+          "name": {
+            "en": "To'raqo'rg'on district",
+            "ru": "Туракурганский район",
+            "uz": "To‘raqo‘rg‘on tumani"
+          },
+          "coordinates": [
+            "41.00203",
+            "71.51142",
+            "41.02345",
+            "71.53982"
+          ]
+        },
+        {
+          "name": {
+            "en": "Uychi district",
+            "ru": "Учкурганский район",
+            "uz": "Uychi tumani"
+          },
+          "coordinates": [
+            "40.98112",
+            "71.32648",
+            "41.00157",
+            "71.35301"
+          ]
+        },
+        {
+          "name": {
+            "en": "Uchqo'rg'on district",
+            "ru": "Учкурганский район",
+            "uz": "Uchqo‘rg‘on tumani"
+          },
+          "coordinates": [
+            "41.08234",
+            "71.54510",
+            "41.10356",
+            "71.57319"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yangiqorgon district",
+            "ru": "Янгикурганский район",
+            "uz": "Yangiqo‘rg‘on tumani"
+          },
+          "coordinates": [
+            "41.20614",
+            "71.78243",
+            "41.22893",
+            "71.80921"
+          ]
+        },
+        {
+          "name": {
+            "en": "Namangan city",
+            "ru": "город Наманган",
+            "uz": "Namangan shahri"
+          },
+          "coordinates": [
+            "40.99818",
+            "71.67257",
+            "41.02013",
+            "71.70320"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Navoiy region",
+        "ru": "Навоийская область",
+        "uz": "Navoiy viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Karmana district",
+            "ru": "Карманинский район",
+            "uz": "Karmana tumani"
+          },
+          "coordinates": [
+            "40.10042",
+            "65.37991",
+            "40.12107",
+            "65.40818"
+          ]
+        },
+        {
+          "name": {
+            "en": "Konimex district",
+            "ru": "Канимехский район",
+            "uz": "Konimex tumani"
+          },
+          "coordinates": [
+            "41.01178",
+            "64.52896",
+            "41.03261",
+            "64.55521"
+          ]
+        },
+        {
+          "name": {
+            "en": "Navbahor district",
+            "ru": "Навбахорский район",
+            "uz": "Navbahor tumani"
+          },
+          "coordinates": [
+            "40.03054",
+            "65.11275",
+            "40.05132",
+            "65.14069"
+          ]
+        },
+        {
+          "name": {
+            "en": "Nurota district",
+            "ru": "Нуротинский район",
+            "uz": "Nurota tumani"
+          },
+          "coordinates": [
+            "40.56258",
+            "65.68391",
+            "40.58354",
+            "65.71152"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qiziltepa district",
+            "ru": "Кызылтепинский район",
+            "uz": "Qiziltepa tumani"
+          },
+          "coordinates": [
+            "40.02647",
+            "64.87563",
+            "40.04785",
+            "64.90309"
+          ]
+        },
+        {
+          "name": {
+            "en": "Tomdi district",
+            "ru": "Тамдынский район",
+            "uz": "Tomdi tumani"
+          },
+          "coordinates": [
+            "42.27681",
+            "63.90467",
+            "42.29663",
+            "63.93287"
+          ]
+        },
+        {
+          "name": {
+            "en": "Uchquduq district",
+            "ru": "Учкудукский район",
+            "uz": "Uchquduq tumani"
+          },
+          "coordinates": [
+            "42.15903",
+            "63.56402",
+            "42.17915",
+            "63.59016"
+          ]
+        },
+        {
+          "name": {
+            "en": "Xatirchi district",
+            "ru": "Хатырчинский район",
+            "uz": "Xatirchi tumani"
+          },
+          "coordinates": [
+            "40.39482",
+            "65.28143",
+            "40.41626",
+            "65.30972"
+          ]
+        },
+        {
+          "name": {
+            "en": "Zarafshan city",
+            "ru": "город Зарафшан",
+            "uz": "Zarafshon shahri"
+          },
+          "coordinates": [
+            "41.58233",
+            "64.22034",
+            "41.60321",
+            "64.24871"
+          ]
+        },
+        {
+          "name": {
+            "en": "Navoiy city",
+            "ru": "город Навои",
+            "uz": "Navoiy shahri"
+          },
+          "coordinates": [
+            "40.08488",
+            "65.37991",
+            "40.10214",
+            "65.40950"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Qashqadaryo region",
+        "ru": "Кашкадарьинская область",
+        "uz": "Qashqadaryo viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Chiroqchi district",
+            "ru": "Чиракчинский район",
+            "uz": "Chiroqchi tumani"
+          },
+          "coordinates": [
+            "39.01769",
+            "66.61397",
+            "39.03741",
+            "66.63812"
+          ]
+        },
+        {
+          "name": {
+            "en": "Dehqonobod district",
+            "ru": "Дехканабадский район",
+            "uz": "Dehqonobod tumani"
+          },
+          "coordinates": [
+            "38.48519",
+            "66.49014",
+            "38.50572",
+            "66.51682"
+          ]
+        },
+        {
+          "name": {
+            "en": "G'uzor district",
+            "ru": "Гузарский район",
+            "uz": "G‘uzor tumani"
+          },
+          "coordinates": [
+            "38.61053",
+            "66.24551",
+            "38.63074",
+            "66.27219"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kasbi district",
+            "ru": "Касбинский район",
+            "uz": "Kasbi tumani"
+          },
+          "coordinates": [
+            "38.87847",
+            "65.97534",
+            "38.89863",
+            "66.00248"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kitob district",
+            "ru": "Китабский район",
+            "uz": "Kitob tumani"
+          },
+          "coordinates": [
+            "39.10854",
+            "66.87412",
+            "39.13026",
+            "66.90035"
+          ]
+        },
+        {
+          "name": {
+            "en": "Koson district",
+            "ru": "Касанский район",
+            "uz": "Koson tumani"
+          },
+          "coordinates": [
+            "38.81997",
+            "65.88857",
+            "38.84047",
+            "65.91399"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mirishkor district",
+            "ru": "Миришкорский район",
+            "uz": "Mirishkor tumani"
+          },
+          "coordinates": [
+            "38.39358",
+            "65.70114",
+            "38.41489",
+            "65.72801"
+          ]
+        },
+        {
+          "name": {
+            "en": "Muborak district",
+            "ru": "Мубарекский район",
+            "uz": "Muborak tumani"
+          },
+          "coordinates": [
+            "39.00823",
+            "65.63271",
+            "39.02899",
+            "65.66089"
+          ]
+        },
+        {
+          "name": {
+            "en": "Nishon district",
+            "ru": "Нишанский район",
+            "uz": "Nishon tumani"
+          },
+          "coordinates": [
+            "38.79932",
+            "65.49422",
+            "38.82015",
+            "65.52139"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qamashi district",
+            "ru": "Камашинский район",
+            "uz": "Qamashi tumani"
+          },
+          "coordinates": [
+            "38.93634",
+            "66.51742",
+            "38.95824",
+            "66.54368"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qarshi district",
+            "ru": "Каршинский район",
+            "uz": "Qarshi tumani"
+          },
+          "coordinates": [
+            "38.87726",
+            "65.79817",
+            "38.89714",
+            "65.82472"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shahrisabz district",
+            "ru": "Шахрисабзский район",
+            "uz": "Shahrisabz tumani"
+          },
+          "coordinates": [
+            "39.05293",
+            "66.82731",
+            "39.07317",
+            "66.85411"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yakkabog' district",
+            "ru": "Яккабогский район",
+            "uz": "Yakkabog‘ tumani"
+          },
+          "coordinates": [
+            "38.92172",
+            "66.27657",
+            "38.94194",
+            "66.30221"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qarshi city",
+            "ru": "город Карши",
+            "uz": "Qarshi shahri"
+          },
+          "coordinates": [
+            "38.86027",
+            "65.79776",
+            "38.87979",
+            "65.82495"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Samarkand region",
+        "ru": "Самаркандская область",
+        "uz": "Samarqand viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Bulung'ur district",
+            "ru": "Булунгурский район",
+            "uz": "Bulung‘ur tumani"
+          },
+          "coordinates": [
+            "39.76293",
+            "67.26578",
+            "39.78284",
+            "67.29304"
+          ]
+        },
+        {
+          "name": {
+            "en": "Ishtixon district",
+            "ru": "Иштыханский район",
+            "uz": "Ishtixon tumani"
+          },
+          "coordinates": [
+            "39.93181",
+            "66.97002",
+            "39.95264",
+            "66.99685"
+          ]
+        },
+        {
+          "name": {
+            "en": "Jomboy district",
+            "ru": "Джамбайский район",
+            "uz": "Jomboy tumani"
+          },
+          "coordinates": [
+            "39.99126",
+            "67.54957",
+            "40.01147",
+            "67.57662"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kattaqo'rg'on district",
+            "ru": "Каттакурганский район",
+            "uz": "Kattaqo‘rg‘on tumani"
+          },
+          "coordinates": [
+            "39.90814",
+            "66.27863",
+            "39.92752",
+            "66.30413"
+          ]
+        },
+        {
+          "name": {
+            "en": "Narpay district",
+            "ru": "Нарпайский район",
+            "uz": "Narpay tumani"
+          },
+          "coordinates": [
+            "39.86291",
+            "66.12379",
+            "39.88342",
+            "66.14952"
+          ]
+        },
+        {
+          "name": {
+            "en": "Nurobod district",
+            "ru": "Нурабадский район",
+            "uz": "Nurobod tumani"
+          },
+          "coordinates": [
+            "39.56916",
+            "65.69527",
+            "39.58837",
+            "65.72148"
+          ]
+        },
+        {
+          "name": {
+            "en": "Oqdaryo district",
+            "ru": "Акдарьинский район",
+            "uz": "Oqdaryo tumani"
+          },
+          "coordinates": [
+            "39.77258",
+            "67.11714",
+            "39.79104",
+            "67.14429"
+          ]
+        },
+        {
+          "name": {
+            "en": "Paxtachi district",
+            "ru": "Пахтачинский район",
+            "uz": "Paxtachi tumani"
+          },
+          "coordinates": [
+            "39.95534",
+            "65.98685",
+            "39.97578",
+            "66.01347"
+          ]
+        },
+        {
+          "name": {
+            "en": "Pastdarg'om district",
+            "ru": "Пастдаргомский район",
+            "uz": "Pastdarg‘om tumani"
+          },
+          "coordinates": [
+            "39.68023",
+            "66.89212",
+            "39.70047",
+            "66.91986"
+          ]
+        },
+        {
+          "name": {
+            "en": "Payariq district",
+            "ru": "Пайарыкский район",
+            "uz": "Payariq tumani"
+          },
+          "coordinates": [
+            "39.93247",
+            "67.17389",
+            "39.95301",
+            "67.19978"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qoshrabot district",
+            "ru": "Кошрабадский район",
+            "uz": "Qoshrabot tumani"
+          },
+          "coordinates": [
+            "39.37092",
+            "65.98594",
+            "39.39034",
+            "66.01207"
+          ]
+        },
+        {
+          "name": {
+            "en": "Samarqand district",
+            "ru": "Самаркандский район",
+            "uz": "Samarqand tumani"
+          },
+          "coordinates": [
+            "39.62741",
+            "66.97563",
+            "39.64734",
+            "67.00381"
+          ]
+        },
+        {
+          "name": {
+            "en": "Toyloq district",
+            "ru": "Тайлакский район",
+            "uz": "Toyloq tumani"
+          },
+          "coordinates": [
+            "39.69324",
+            "67.10539",
+            "39.71275",
+            "67.13397"
+          ]
+        },
+        {
+          "name": {
+            "en": "Urgut district",
+            "ru": "Ургутский район",
+            "uz": "Urgut tumani"
+          },
+          "coordinates": [
+            "39.40239",
+            "67.18179",
+            "39.42258",
+            "67.20924"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kattaqo'rg'on city",
+            "ru": "город Каттакурган",
+            "uz": "Kattaqo‘rg‘on shahri"
+          },
+          "coordinates": [
+            "39.89832",
+            "66.28082",
+            "39.91867",
+            "66.30574"
+          ]
+        },
+        {
+          "name": {
+            "en": "Samarqand city",
+            "ru": "город Самарканд",
+            "uz": "Samarqand shahri"
+          },
+          "coordinates": [
+            "39.65401",
+            "66.95135",
+            "39.67432",
+            "66.97824"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Sirdaryo region",
+        "ru": "Сырдарьинская область",
+        "uz": "Sirdaryo viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Akaltyn district",
+            "ru": "Акалтынский район",
+            "uz": "Aqoltin tumani"
+          },
+          "coordinates": [
+            "40.70012",
+            "68.80191",
+            "40.72135",
+            "68.83032"
+          ]
+        },
+        {
+          "name": {
+            "en": "Boyovut district",
+            "ru": "Баяутский район",
+            "uz": "Boyovut tumani"
+          },
+          "coordinates": [
+            "40.55761",
+            "68.70511",
+            "40.57823",
+            "68.73385"
+          ]
+        },
+        {
+          "name": {
+            "en": "Guliston district",
+            "ru": "Гулистанский район",
+            "uz": "Guliston tumani"
+          },
+          "coordinates": [
+            "40.48874",
+            "68.77294",
+            "40.50956",
+            "68.80132"
+          ]
+        },
+        {
+          "name": {
+            "en": "Khovos district",
+            "ru": "Хавастский район",
+            "uz": "Xovos tumani"
+          },
+          "coordinates": [
+            "40.45287",
+            "69.02391",
+            "40.47336",
+            "69.05132"
+          ]
+        },
+        {
+          "name": {
+            "en": "Mirzaobod district",
+            "ru": "Мирзаабадский район",
+            "uz": "Mirzaobod tumani"
+          },
+          "coordinates": [
+            "40.73411",
+            "68.55498",
+            "40.75478",
+            "68.58232"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sayxunobod district",
+            "ru": "Сайхунабадский район",
+            "uz": "Sayxunobod tumani"
+          },
+          "coordinates": [
+            "40.85126",
+            "68.57921",
+            "40.87245",
+            "68.60785"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sardoba district",
+            "ru": "Сардобинский район",
+            "uz": "Sardoba tumani"
+          },
+          "coordinates": [
+            "40.64578",
+            "68.41487",
+            "40.66598",
+            "68.44412"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sirdaryo district",
+            "ru": "Сырдарьинский район",
+            "uz": "Sirdaryo tumani"
+          },
+          "coordinates": [
+            "40.82724",
+            "68.67256",
+            "40.84756",
+            "68.70143"
+          ]
+        },
+        {
+          "name": {
+            "en": "Oqoltin district",
+            "ru": "Акалтынский район",
+            "uz": "Oqoltin tumani"
+          },
+          "coordinates": [
+            "40.69121",
+            "68.84474",
+            "40.71179",
+            "68.87212"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yangiyer city",
+            "ru": "город Янгиер",
+            "uz": "Yangiyer shahri"
+          },
+          "coordinates": [
+            "40.67198",
+            "68.89742",
+            "40.69256",
+            "68.92673"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shirin city",
+            "ru": "город Ширин",
+            "uz": "Shirin shahri"
+          },
+          "coordinates": [
+            "40.50632",
+            "68.77584",
+            "40.52673",
+            "68.80423"
+          ]
+        },
+        {
+          "name": {
+            "en": "Guliston city",
+            "ru": "город Гулистан",
+            "uz": "Guliston shahri"
+          },
+          "coordinates": [
+            "40.48778",
+            "68.77398",
+            "40.50895",
+            "68.80147"
+          ]
+        }
+      ]
+    },
+    {
+      "names": {
+        "en": "Surkhandaryo region",
+        "ru": "Сурхандарьинская область",
+        "uz": "Surxondaryo viloyati"
+      },
+      "districts": [
+        {
+          "name": {
+            "en": "Angor district",
+            "ru": "Ангорский район",
+            "uz": "Angor tumani"
+          },
+          "coordinates": [
+            "37.47496",
+            "67.02037",
+            "37.49562",
+            "67.04872"
+          ]
+        },
+        {
+          "name": {
+            "en": "Boysun district",
+            "ru": "Байсунский район",
+            "uz": "Boysun tumani"
+          },
+          "coordinates": [
+            "38.20736",
+            "67.21192",
+            "38.22793",
+            "67.23908"
+          ]
+        },
+        {
+          "name": {
+            "en": "Denov district",
+            "ru": "Денауский район",
+            "uz": "Denov tumani"
+          },
+          "coordinates": [
+            "38.26681",
+            "67.88743",
+            "38.28865",
+            "67.91371"
+          ]
+        },
+        {
+          "name": {
+            "en": "Jarqo'rg'on district",
+            "ru": "Джаркурганский район",
+            "uz": "Jarqo‘rg‘on tumani"
+          },
+          "coordinates": [
+            "37.52747",
+            "67.77329",
+            "37.54859",
+            "67.80241"
+          ]
+        },
+        {
+          "name": {
+            "en": "Kumqo'rg'on district",
+            "ru": "Кумкурганский район",
+            "uz": "Qumqo‘rg‘on tumani"
+          },
+          "coordinates": [
+            "37.84283",
+            "67.38494",
+            "37.86403",
+            "67.41285"
+          ]
+        },
+        {
+          "name": {
+            "en": "Muzrabot district",
+            "ru": "Музрабадский район",
+            "uz": "Muzrabot tumani"
+          },
+          "coordinates": [
+            "37.75913",
+            "67.07494",
+            "37.77928",
+            "67.10285"
+          ]
+        },
+        {
+          "name": {
+            "en": "Oltinsoy district",
+            "ru": "Алтынсайский район",
+            "uz": "Oltinsoy tumani"
+          },
+          "coordinates": [
+            "38.16637",
+            "67.68781",
+            "38.18853",
+            "67.71394"
+          ]
+        },
+        {
+          "name": {
+            "en": "Qiziriq district",
+            "ru": "Кызырыкский район",
+            "uz": "Qiziriq tumani"
+          },
+          "coordinates": [
+            "37.77491",
+            "67.21618",
+            "37.79483",
+            "67.24315"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sariosiyo district",
+            "ru": "Сариасийский район",
+            "uz": "Sariosiyo tumani"
+          },
+          "coordinates": [
+            "38.44096",
+            "67.90148",
+            "38.46112",
+            "67.92831"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sherobod district",
+            "ru": "Шерабадский район",
+            "uz": "Sherobod tumani"
+          },
+          "coordinates": [
+            "37.64383",
+            "67.07691",
+            "37.66418",
+            "67.10473"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sho'rchi district",
+            "ru": "Шурчинский район",
+            "uz": "Sho‘rchi tumani"
+          },
+          "coordinates": [
+            "37.98832",
+            "67.58019",
+            "38.00987",
+            "67.60681"
+          ]
+        },
+        {
+          "name": {
+            "en": "Termiz district",
+            "ru": "Термезский район",
+            "uz": "Termiz tumani"
+          },
+          "coordinates": [
+            "37.22019",
+            "67.27273",
+            "37.24142",
+            "67.30019"
+          ]
+        },
+        {
+          "name": {
+            "en": "Uzun district",
+            "ru": "Узунский район",
+            "uz": "Uzun tumani"
+          },
+          "coordinates": [
+            "38.09742",
+            "68.05432",
+            "38.11914",
+            "68.08071"
+          ]
+        },
+        {
+          "name": {
+            "en": "Termiz city",
+            "ru": "город Термез",
+            "uz": "Termiz shahri"
+          },
+          "coordinates": [
+            "37.22429",
+            "67.27583",
+            "37.24397",
+            "67.30349"
+          ]
+        }
+      ]
+    }
+  ]
+}

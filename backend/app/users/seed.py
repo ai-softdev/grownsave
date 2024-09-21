@@ -8,7 +8,6 @@ from app.users.models import Role, User
 class Seeder:
     @staticmethod
     async def run():
-        print('users seed start')
         await Language.first_or_create(filter=Language.code == 'ru', code="ru", name="Русский")
         await Language.first_or_create(filter=Language.code == 'uz', code="uz", name="Узбекский")
         await Language.first_or_create(filter=Language.code == 'en', code="en", name="Английский")
