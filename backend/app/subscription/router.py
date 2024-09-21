@@ -1,6 +1,6 @@
 import uuid
 from datetime import datetime, timedelta
-from typing import Dict
+from typing import Dict, List
 
 from fastapi import APIRouter, Depends
 from sqlalchemy import and_
@@ -50,3 +50,9 @@ async def implement_creating_subscription(data: PaymentData, user: User = Depend
         'message': 'Order is created. Waiting to purchase',
         "transaction_id": transaction_id
     }
+
+
+@router.get('/plans')
+async def get_plans() -> List[]
+    plans = await Plan.get_all()
+    return plans
