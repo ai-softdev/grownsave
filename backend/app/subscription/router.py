@@ -8,7 +8,7 @@ from app.payment.enums import OrderStatus
 from app.payment.models import Order
 from app.payment.schemas import PaymentData
 from app.request import request
-from app.subscription.models import Purchase, Plan
+from app.subscription.models import Plan
 from app.users.dependencies import get_current_user
 from app.users.models import User
 
@@ -19,8 +19,6 @@ router = APIRouter(prefix="/subscription", tags=["Подписка"])
 
 @router.post('implement')
 async def implement_creating_subscription(data: PaymentData, user: User = Depends(get_current_user)):
-
-
     plan = await Plan.find_by_id_or_fail(model_id=data.plan_id)
 
     order = await Order.find_one_or_none(filter=and_(
@@ -51,8 +49,3 @@ async def implement_creating_subscription(data: PaymentData, user: User = Depend
     return {
         'message': 'Order is created. Waiting to purchase'
     }
-
-
-
-
-

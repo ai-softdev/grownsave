@@ -1,6 +1,7 @@
+from typing import Optional
 from pydantic import BaseModel
 
 class SLanguage(BaseModel):
-    ru: str | None
-    uz: str | None
-    en: str | None
+    ru: Optional[str] = None
+    uz: Optional[str] = None
+    en: Optional[str] = None

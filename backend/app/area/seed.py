@@ -95,6 +95,27 @@ class Seeder:
     @staticmethod
     async def run():
         print('area seed')
+        await Plan.first_or_create(filter=Plan.system_name == 'start',
+                                   name="Базовый",
+                                   price=5,
+                                   system_name="start",
+                                   with_ai=False,
+                                   with_indicator=False,
+                                   )
+        await Plan.first_or_create(filter=Plan.system_name == 'advanced',
+                                   name="Продвинутый",
+                                   price=15,
+                                   system_name="advanced",
+                                   with_ai=True,
+                                   with_indicator=False,
+                                   )
+        pro_plan = await Plan.first_or_create(filter=Plan.system_name == 'pro',
+                                   name="Профессиональный",
+                                   price=25,
+                                   system_name="pro",
+                                   with_ai=True,
+                                   with_indicator=False,
+                                   )
         user_role = await Role.first_or_create(
             filter=Role.system_name == 'user', system_name="user")
         user_1 = await User.first_or_create(filter=User.email == 'oktanc71@yandex.com',
@@ -104,7 +125,6 @@ class Seeder:
                                             lastname="Oktamov",
                                             phone="+998937198242",
                                             hashed_password=get_hashed_password("oktanc71@yandex.com"))
-        pro_plan = await Plan.find_one_or_fail(filter=Plan.system_name == 'pro')
         await Order.first_or_create(
             filter=Order.transaction_id == 'test_transaction',
             transaction_id="test_transaction",
