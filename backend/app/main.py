@@ -28,3 +28,7 @@ from app.general.router import router as router_general
 app.include_router(router_general)
 from app.area.router import router as router_area
 app.include_router(router_area)
+from app.subscription.router import router as router_subscribe
+app.include_router(router_subscribe)
+from app.payment.router import router as router_payment
+app.include_router(router_payment)

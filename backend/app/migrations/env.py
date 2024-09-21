@@ -1,6 +1,4 @@
-# from app.area.models import *
 from app.general.models import *
-
 import sys
 from logging.config import fileConfig
 from os.path import dirname, abspath
