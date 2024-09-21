@@ -14,4 +14,8 @@ class Order(Base):
     plan_id = Column(ForeignKey("plans.id"), nullable=True)
     user_id = Column(ForeignKey("users.id"), nullable=True)
     plan = relationship("Plan")
+<<<<<<< HEAD
     # user = relationship("User", back_populates='purchases')
+=======
+    user = relationship("User", back_populates='orders')
+>>>>>>> 4a4aed333c906c46104e65267e1350c3007f844b

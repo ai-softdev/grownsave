@@ -7,7 +7,7 @@ from sqlalchemy import Column, String, DateTime, ForeignKey, select, JSON, func,
 from sqlalchemy.orm import joinedload, Mapped
 from app.area.models import Area
 from sqlalchemy.orm import relationship
-
+from app.payment.models import Order
 
 class Role(Base):
     users = relationship("User", back_populates="role")
@@ -26,6 +26,8 @@ class User(Base):
     phone = Column(String, nullable=True)
     areas = relationship("Area", back_populates="user")
     notifications = relationship("Notification", back_populates="user")
+    orders = relationship("Order", back_populates='user')
+
     def __str__(self):
         return f"{self.email}"
 
