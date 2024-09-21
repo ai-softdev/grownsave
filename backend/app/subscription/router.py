@@ -3,12 +3,13 @@ from datetime import datetime, timedelta
 from fastapi import APIRouter, Depends
 from sqlalchemy import and_
 
-from app.exceptions import AlreadyPurchased
+from app.exceptions import AlreadyPurchasedException
 from app.payment.enums import OrderStatus
 from app.payment.models import Order
 from app.payment.schemas import PaymentData
 from app.request import request
 from app.subscription.models import Plan
+from app.subscription.tools import has_subscription
 from app.users.dependencies import get_current_user
 from app.users.models import User
 
@@ -17,16 +18,14 @@ from app.config import settings
 router = APIRouter(prefix="/subscription", tags=["Подписка"])
 
 
-@router.post('implement')
-async def implement_creating_subscription(data: PaymentData, user: User = Depends(get_current_user)):
+@router.post('/purchase')
+async def implement_creating_subscription(data: PaymentData, user: User = Depends(get_current_user)) -> dict[str, str]:
+
+
     plan = await Plan.find_by_id_or_fail(model_id=data.plan_id)
 
-    order = await Order.find_one_or_none(filter=and_(
-        Order.date_time > datetime.now() - timedelta(days=30),
-        Order.status == OrderStatus.completed))
-
-    if order is not None:
-        raise AlreadyPurchased
+    if await has_subscription(user, raise_exception=False):
+        raise AlreadyPurchasedException
 
     '''
     Imitation of creating payment bill
@@ -49,3 +48,8 @@ async def implement_creating_subscription(data: PaymentData, user: User = Depend
     return {
         'message': 'Order is created. Waiting to purchase'
     }
+
+
+
+
+

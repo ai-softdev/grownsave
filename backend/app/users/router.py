@@ -41,7 +41,7 @@ async def login(response: Response, user_data: SUserAuth)->SPUserAuth:
         raise IncorrectEmailOrPassword
     access_token = create_access_token({"sub": str(user.id)})
     response.set_cookie("access_token", access_token, httponly=True)
-
+    user = await User.find_by_id_or_fail(model_id=user.id, includes=['role'])
     return {'access_token': access_token, 'data': user}
 
 
@@ -53,7 +53,7 @@ async def logout(response: Response):
 
 @router.get("/current-user")
 async def current_user(user: User = Depends(get_current_user)) -> SCurrentUser:
-    return user
+    return await User.find_by_id(model_id=user.id, includes=['role'])
 
 
 @router.post('/change-password')

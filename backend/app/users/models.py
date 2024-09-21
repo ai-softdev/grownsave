@@ -3,7 +3,7 @@ from pydantic import create_model
 from app.exceptions import ModelNotFoundException
 from app.repository.base import Base
 from app.database import async_session_maker
-from sqlalchemy import Column, String, DateTime, ForeignKey, select, JSON, func, Boolean, UniqueConstraint, insert
+from sqlalchemy import Column, String, DateTime, ForeignKey, select, JSON, func, Boolean, UniqueConstraint, insert, Text
 from sqlalchemy.orm import joinedload, Mapped
 from app.area.models import Area
 from sqlalchemy.orm import relationship
@@ -25,6 +25,16 @@ class User(Base):
     created_at = Column(DateTime, default=func.now())
     phone = Column(String, nullable=True)
     areas = relationship("Area", back_populates="user")
+    notifications = relationship("Notification", back_populates="user")
     orders = relationship("Order", back_populates='user')
+
     def __str__(self):
         return f"{self.email}"
+
+class Notification(Base):
+
+    created_at = Column(DateTime, default=func.now())
+    text = Column(Text, nullable=False)
+    user_id = Column(ForeignKey("users.id", ondelete="CASCADE"))
+    user = relationship("User", back_populates="notifications")
+

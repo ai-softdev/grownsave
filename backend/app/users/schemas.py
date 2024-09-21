@@ -14,15 +14,13 @@ class SPermission(BaseLocale):
     names: SLanguage
 
 
-class SRole(BaseLocale):
+class SRole(BaseModel):
     id: int
-    permissions: List[SPermission]
-
+    system_name: str
 
 class SCurrentUser(BaseModel):
     id: int
     email: str
-    photo: Optional[str]
     lastname: Optional[str]
     name: Optional[str]
     patronymic: Optional[str]

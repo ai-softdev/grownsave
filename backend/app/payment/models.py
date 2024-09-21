@@ -7,7 +7,7 @@ from app.subscription.models import Plan
 
 
 class Order(Base):
-    date_time = Column(TIMESTAMP, default=func.now())
+    datetime = Column(TIMESTAMP, default=func.now())
     transaction_id = Column(String(100), nullable=False, unique=True)
     amount = Column(Float, nullable=False)
     status = Column(Enum(OrderStatus), default=OrderStatus.waiting)
@@ -15,3 +15,4 @@ class Order(Base):
     user_id = Column(ForeignKey("users.id"), nullable=True)
     plan = relationship("Plan")
     user = relationship("User", back_populates='orders')
+

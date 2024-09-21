@@ -13,4 +13,3 @@ class Plan(Base):
     with_ai = Column(Boolean)
     with_indicator = Column(Boolean)
 
-
