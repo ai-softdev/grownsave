@@ -1,5 +1,5 @@
 import datetime
-from typing import List
+from typing import List, Optional
 
 from fastapi import UploadFile
 from pydantic import BaseModel
@@ -21,10 +21,11 @@ class SRole(BaseModel):
 class SCurrentUser(BaseModel):
     id: int
     email: str
-    lastname: str | None
-    name: str | None
-    patronymic: str | None
+    lastname: Optional[str]
+    name: Optional[str]
+    patronymic: Optional[str]
     created_at: datetime.datetime
+    is_active: bool
     role: SRole
 
     class Config:
