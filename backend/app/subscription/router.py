@@ -8,7 +8,7 @@ from app.payment.enums import OrderStatus
 from app.payment.models import Order
 from app.payment.schemas import PaymentData
 from app.request import request
-from app.subscription.models import Purchase, Plan
+from app.subscription.models import Plan
 from app.users.dependencies import get_current_user
 from app.users.models import User
 

@@ -3,7 +3,6 @@ from fastapi import APIRouter
 from app.payment.enums import OrderStatus
 from app.payment.models import Order
 from app.payment.schemas import PaymentSystemData
-from app.subscription.models import Purchase
 
 router = APIRouter(prefix="/payment", tags=["Оплата"])
 
@@ -21,5 +20,5 @@ async def complete_payment(data: PaymentSystemData):
     # error
     elif data.status_code == 1:
         order.status = OrderStatus.error
-        await Purchase.delete(filter=Purchase.order_id == order.id)
+
 
