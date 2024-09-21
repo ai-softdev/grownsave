@@ -25,5 +25,6 @@ class User(Base):
     created_at = Column(DateTime, default=func.now())
     phone = Column(String, nullable=True)
     purchases = relationship("Purchase", back_populates='user')
+    areas = relationship("Area", back_populates="user")
     def __str__(self):
         return f"{self.email}"

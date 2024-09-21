@@ -2,7 +2,8 @@ from app.general.models import *
 import sys
 from logging.config import fileConfig
 from os.path import dirname, abspath
-
+from app.payment.models import *
+from app.subscription.models import *
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 

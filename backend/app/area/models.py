@@ -5,6 +5,8 @@ from app.repository.base import Base
 
 
 class Area(Base):
+    user = relationship("User", back_populates="areas")
+
     user_id = Column(ForeignKey('users.id', ondelete='cascade'))
     name = Column(String)
     coordinates = Column(JSON)
