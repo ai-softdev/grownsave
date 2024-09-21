@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F6F6F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7A7A7A;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px !important;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 1);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+
+.tooltip.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 1279px) {
+  .tooltip {
+    display: none;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  backdrop-filter: blur(4px);
+  opacity: 0;
+}
+
+.blur-fade-enter-active,
+.blur-fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.blur-fade-enter-from,
+.blur-fade-leave-to {
+  backdrop-filter: blur(4px);
+  opacity: 0;
+}
+
+.left-fade-fast-enter-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.left-fade-fast-leave-active {
+  display: none;
+  opacity: 0;
+}
+
+.left-fade-fast-enter-from,
+.left-fade-fast-leave-to {
+  opacity: 0;
+}
+
+.left-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.left-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.left-fade-enter-from,
+.left-fade-leave-to {
+  transform: translateX(-20px);
+  opacity: 0;
+}
