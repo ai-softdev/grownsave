@@ -13,7 +13,7 @@ export default {
       <li v-for="(link, index) in navLinks" :key="index" class="cursor-pointer">
         <router-link
             :to="link.link"
-            class="text-white"
+            class="text-white max_lg:text-forest"
         >
           {{ $t(link.name) }}
         </router-link>

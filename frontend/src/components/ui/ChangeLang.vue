@@ -18,8 +18,8 @@ export default {
 </script>
 
 <template>
-  <div class="relative">
-    <button @click="changeShowLang" class="flex items-center text-white gap-2">
+  <div class="relative max_lg:flex-col">
+    <button @click="changeShowLang" class="flex items-center text-white gap-2 max_lg:bg-forest max_lg:p-2 max_lg:rounded-lg">
       <p>{{ $t(activeLanguage.short) }}</p>
       <img
           :class="{'rotate-180': showLang, 'rotate-0': !showLang}"

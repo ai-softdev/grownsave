@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .burger {
-  top: -5px;
+  top: 10px;
   right: 15px;
   position: absolute;
   width: 40px;
@@ -30,7 +30,7 @@ export default {
 .burger:before,
 .burger:after,
 .burger div {
-  background: #30B502;
+  background: white;
   content: "";
   display: block;
   height: 3px;
@@ -39,9 +39,11 @@ export default {
   transition: 0.5s;
 }
 .burger.active:before {
+  background: #598F3D;
   transform: translateY(8px) rotate(135deg);
 }
 .burger.active:after {
+  background: #598F3D;
   transform: translateY(-12px) rotate(-135deg);
 }
 .burger.active div {

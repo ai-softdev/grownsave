@@ -13,15 +13,15 @@ export default {
     return {
       links: [
         {
-          name: 'Преимущества платформы',
+          name: 'Advantages of the platform',
           link: '/#advantages'
         },
         {
-          name: 'Интерактивная карта',
+          name: 'Interactive map',
           link: '/#map'
         },
         {
-          name: 'Тарифы',
+          name: 'Tariffs',
           link: '/#tariffs'
         },
       ],
@@ -93,7 +93,7 @@ export default {
 </script>
 
 <template>
-  <header class="absolute top-0 left-0 right-0 z-10 header h-[70px] w-full">
+  <header class="absolute top-0 left-0 right-0 z-10 header h-[70px] w-full z-20">
     <div class="container !flex items-center justify-between">
       <RouterLink to="/#intro">
         <img src="/img/logo.svg" class="logo mx-auto w-[170px] h-[60px] object-contain font-bold"/>
@@ -118,14 +118,14 @@ export default {
           />
           <router-link v-if="getCurrentUser && !getCurrentUser.id" to="/login">
             <MainButton
-                class="!text-forest bg-white !rounded-full !w-fit px-4"
+                class="!text-forest bg-white !rounded-full !w-fit px-4 !mt-0"
             >
               {{ $t('Login/Registration') }}
             </MainButton>
           </router-link>
           <router-link to="/admin" class="font-bold flex items-center gap-3">
             <MainButton
-                class="!text-forest bg-white !rounded-full !w-fit px-4"
+                class="!text-forest bg-white !rounded-full !w-fit px-4 !mt-0"
             >
               {{ $t('Profile') }}
             </MainButton>

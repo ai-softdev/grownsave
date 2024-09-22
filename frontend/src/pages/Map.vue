@@ -13,10 +13,12 @@ import TypesFilter from "../components/map/ui/filters/TypesFilter.vue";
 import DatePicker from "../components/map/ui/filters/DatePicker.vue";
 import SvgMap from "../components/map/SvgMap.vue";
 import Tooltip from "../components/ui/Tooltip.vue";
+import AdminHeader from "../components/admin/AdminHeader.vue";
 
 export default {
   name: "Map",
   components: {
+    AdminHeader,
     Tooltip,
     SvgMap,
     DatePicker,
@@ -1369,6 +1371,7 @@ export default {
 </script>
 
 <template>
+  <AdminHeader/>
   <section class="py-3 bg-white">
     <div class="px-3">
       <div class="flex flex-col gap-5 items-center justify-between w-full relative max_lg:flex-col max_lg:gap-5">

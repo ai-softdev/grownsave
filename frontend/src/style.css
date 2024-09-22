@@ -108,3 +108,7 @@ html {
   transform: translateX(-20px);
   opacity: 0;
 }
+
+.text-forest {
+  color: #598F3D;
+}

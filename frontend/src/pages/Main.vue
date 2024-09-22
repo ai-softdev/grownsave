@@ -15,8 +15,6 @@ export default {
   <Header/>
   <Intro/>
   <InteractiveMap/>
-  <Tariffs/>
-  <Footer/>
 </template>
 
 <style scoped>
