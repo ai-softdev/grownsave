@@ -73,6 +73,10 @@ docker exec -it back python seeder.py
 docker-compose down
 ```
 
+### 8. Ссылки
+Back-end: http://127.0.0.1:9777/docs
+AI: http://127.0.0.1:9888/docs
+
 
 ## Примечания
 - Убедитесь, что у вас установлены последние версии Docker и Docker Compose.
