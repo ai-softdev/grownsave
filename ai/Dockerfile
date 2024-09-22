@@ -2,7 +2,7 @@ FROM python:3.12
 
 WORKDIR /ai
 
-COPY ai/req.txt .
+COPY req.txt .
 
 RUN pip install -r req.txt
 

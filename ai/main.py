@@ -8,7 +8,7 @@ from endpoints.crop import router as crop_router
 
 
 @asynccontextmanager
-async def lifespan():
+async def lifespan(fastapi: FastAPI):
     ml_models["crop_prediction"] = crop_model_loading()
     yield
     ml_models.clear()

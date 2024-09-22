@@ -3,9 +3,7 @@ services:
 
   web:
     container_name: back
-    build:
-      context: backend
-      dockerfile: backend/Dockerfile
+    build: backend/
     volumes:
       - .:/app
     depends_on:
@@ -14,6 +12,8 @@ services:
       - app-network
     ports:
       - "9777:8001"
+    environment:
+      - SENTRY_DSN=https://f26f82a30fc4366b8db8e4e40097b742@o4507994811334656.ingest.de.sentry.io/4507994812645456
   db:
     container_name: db
     image: postgres:12
@@ -25,13 +25,35 @@ services:
       - app-network
   ai:
     container_name: ai
-    build:
-      dockerfile: ai/Dockerfile
+    build: ai/
     depends_on:
       - web
     ports:
       - "9888:8000"
-
+  redis:
+    image: redis:7.0
+    ports:
+      - "6379:6379"
+    restart: always
+  rabbitmq:
+    image: rabbitmq:3.11-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: dk
+      RABBITMQ_DEFAULT_PASS: zec123123
+    restart: always
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
 networks:
   app-network:
     driver: bridge

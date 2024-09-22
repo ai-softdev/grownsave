@@ -1,4 +1,4 @@
-
+#backend/.env
 backend/venv
 backend/app/migrations/versions/*
 !backend/app/migrations/versions/__init__.py
@@ -11,5 +11,5 @@ backend/__pycache__
 
 frontend/node_modules
 frontend/.idea
-frontend/dist
+
 .idea
