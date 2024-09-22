@@ -7,7 +7,7 @@
 
 ## User Flow Diagram
 ![User Flow Diagram](grown-userflow.drawio.png)
-![User Flow ](User flow (Grow'n Save!).png)
+![User Flow](User%20flow%20(Grow'n%20Save!).png)
 ## Database Structure
 ![Database Structure](database.drawio.png)
 
