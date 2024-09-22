@@ -10,7 +10,7 @@
 ![User Flow](User%20flow%20(Grow'n%20Save!).png)
 ## Database Structure
 ![Database Structure](database.drawio.png)
-
+## Ссылка на дизайн: https://www.figma.com/design/PJ4a78cS8Mxu4xZJrctVrg/1?node-id=19-869&node-type=frame&t=LXZ9Cjfbo923IbRT-0
 ## Ссылки на документацию компонентов
 
 ### Backend
