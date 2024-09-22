@@ -135,7 +135,7 @@ export default {
           class="pathTuman"/>
       <router-link
           class="map-tab-link district hover:opacity-90 transition-all duration-300 ease-in-out"
-          to="/map/tashkent-region"
+          :to="{name: 'map-page'}"
       >
         <path
             fill="#30B502"

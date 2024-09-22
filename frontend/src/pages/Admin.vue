@@ -11,10 +11,7 @@ export default {
 
 <template>
   <AdminHeader/>
-  Profile
-<!--  <Transition name="blur-fade">-->
-<!--    <router-view/>-->
-<!--  </Transition>-->
+  Profile page
 </template>
 
 <style scoped>

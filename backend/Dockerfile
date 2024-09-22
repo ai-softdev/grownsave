@@ -2,7 +2,7 @@ FROM python:3.8-slim
 
 WORKDIR /app
 
-COPY req.txt .
+COPY backend/req.txt .
 RUN pip install  -r req.txt
 
 COPY . .

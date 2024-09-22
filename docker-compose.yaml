@@ -4,8 +4,8 @@ services:
   web:
     container_name: back
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: backend
+      dockerfile: backend/Dockerfile
     volumes:
       - .:/app
     depends_on:
@@ -18,11 +18,19 @@ services:
     container_name: db
     image: postgres:12
     env_file:
-      - .env
+      - backend/.env
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
     networks:
       - app-network
+  ai:
+    container_name: ai
+    build:
+      dockerfile: ai/Dockerfile
+    depends_on:
+      - web
+    ports:
+      - "9888:8000"
 
 networks:
   app-network:

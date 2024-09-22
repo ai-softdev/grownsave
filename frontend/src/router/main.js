@@ -10,13 +10,11 @@ const main =  [
         path: ADMIN_ROUTE,
         component: Admin,
         name: 'admin-page',
-        children: [
-            {
-                path: MAP_ROUTE,
-                component: Map,
-                name: "map-page"
-            }
-        ]
+    },
+    {
+        path: MAP_ROUTE,
+        component: Map,
+        name: "map-page"
     },
     {
         path: MAIN_ROUTE,
