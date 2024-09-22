@@ -49,6 +49,31 @@ git clone https://github.com/ai-softdev.com/grownsave.git
 docker-compose up --build -d
 ```
 
+### 4. Автогенерация ревизии Alembic
+Создайте новую ревизию для миграций базы данных с помощью Alembic:
+```bash
+docker exec -it back alembic revision --autogenerate
+```
+
+### 5. Применение миграций Alembic
+Примените созданные миграции:
+```bash
+docker exec -it back alembic upgrade head
+```
+
+### 6. Заполнение базы данных
+Запустите скрипт для начального заполнения базы данных:
+```bash
+docker exec -it back python seeder.py
+```
+
+### 7. Остановка контейнеров
+Чтобы остановить контейнеры, выполните следующую команду:
+```bash
+docker-compose down
+```
+
+
 ## Примечания
 - Убедитесь, что у вас установлены последние версии Docker и Docker Compose.
 - Все команды выполняются из директории `ai`.
